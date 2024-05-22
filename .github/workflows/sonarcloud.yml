@@ -23,5 +23,5 @@ jobs:
         with:
           args: >
             -Dsonar.organization=guillermosb
-            -Dsonar.projectKey=sonarcloud-analysis
+            -Dsonar.projectKey=guillermoSb_sonarcloud-analysis
             -Dsonar.python.coverage.reportPaths=coverage.xml
