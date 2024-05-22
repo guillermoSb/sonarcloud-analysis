@@ -1,4 +1,5 @@
 import os
+
 def read_file(file_path):
 	try:
 		with open(file_path, 'r') as file:
@@ -18,6 +19,7 @@ def get_user_input():
 
 def process_data(data):
 	processed_data = data.lower()
+	processed_data = data.lower()  # Duplicación innecesaria de procesamiento
 	return processed_data
 
 def main():
@@ -29,10 +31,11 @@ def main():
 	# Processing data
 	processed_data = process_data(data)
 	print(f"Processed Data: {processed_data}")
-	print(f"Processed Data: {processed_data}")
+	print(f"Processed Data: {processed_data}")  # Duplicación de impresión
 	# Getting user input and writing to a file
 	user_input = get_user_input()
 	write_file(file_path, user_input)
+	write_file(file_path, user_input)  # Duplicación de escritura en archivo
 
 if __name__ == "__main__":
 	main()
