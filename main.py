@@ -28,7 +28,7 @@ def main():
 		return
 	# Processing data
 	processed_data = process_data(data)
-	print(f"Processed Data: {processed_data})
+	print(f"Processed Data: {processed_data}"
 	# Getting user input and writing to a file
 	user_input = get_user_input()
 	write_file(file_path, user_input)
