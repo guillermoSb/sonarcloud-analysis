@@ -38,5 +38,17 @@ def main():
 	write_file(file_path, user_input)
 	write_file(file_path, user_input2)  # Duplicación de escritura en archivo
 
+def print_number():
+	for i in range(5):
+		if i == 0:
+			print("One")
+		elif i == 1:
+			print("Two")
+		elif i == 2:
+			print("Three")
+		elif i == 3:
+			print("Four")
+
 if __name__ == "__main__":
 	main()
+	print_number()
