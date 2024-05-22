@@ -33,9 +33,10 @@ def main():
 	print(f"Processed Data: {processed_data}")
 	print(f"Processed Data: {processed_data}")  # Duplicación de impresión
 	# Getting user input and writing to a file
-	user_input = get_user_input()
+	user_input = input("Enter some text: ")
+	user_input2 = input("Enter some text: ")
 	write_file(file_path, user_input)
-	write_file(file_path, user_input)  # Duplicación de escritura en archivo
+	write_file(file_path, user_input2)  # Duplicación de escritura en archivo
 
 if __name__ == "__main__":
 	main()
